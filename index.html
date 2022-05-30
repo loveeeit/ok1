@@ -6,27 +6,32 @@
     <meta charset="utf-8">
 
     <!-- Page Title -->
-    <title>Operna Klet</title>
+    <title>Operna klet</title>
     <!--/ Page Title -->
 
-    <meta name="author" content="Operna Klet">
-    <meta name="author" content="Operna Klet">
-    <meta name="description" content="Najstarejša ribja restavracija v Ljubljani">
+    <meta name="author" content="Operna klet">
+    <meta name="description" content="Najstarejša ribja restavracija v ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,600,700&display=swap" rel="stylesheet">
 
-    <link href="css/plugins1.css" rel="stylesheet">
-    <link href="css/entypo1.css" rel="stylesheet">
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/entypo.css" rel="stylesheet">
 
-    <link href="style1.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <!--/ Favicons -->
 </head>
 
 <body>
+
+    <!-- Loading Text -->
+    <div class="loading-text">Nalaganje</div>
+    <!-- Loading Text -->
+ 
     <!-- Lines (Don't Touch) -->
     <div class="lines"></div>
     <!-- /Lines -->
@@ -41,74 +46,361 @@
     <div class="overlays"></div>
     <!-- /Overlays -->
 
+    <!-- Header -->
+    <header class="site-header dark">
+
+        <!-- Branding -->
+        <div class="site-branding">
+            <img class="dark-logo" src="../light/images/opera-logo.png" alt="Logotip Operna klet" href=operna-klet.html>
+            <img class="light-logo" src="../light/images/opera-logo-light.png" alt="Logotip Operna Klet svetli">
+        </div>
+        <!-- /Branding -->
+
+        <!-- Menu -->
+        <div class="site-navigation light">
+
+            <!-- Menu Toggle (Don't Touch) -->
+            <div class="menu-toggle"></div>
+            <!-- /Menu Toggle -->
+
+            <!-- Menu Overlays (Don't Touch) -->
+            <div class="menu-overlays"></div>
+            <!-- Menu Overlays -->
+
+            <div class="menu-wrapper">
+
+                <!-- Navigation -->
+                <ul class="menu">
+
+                    <!-- Main Menu -->
+					<li class="menu-item"><a href="operna-klet.html">Domov</a></li>
+                    <li class="menu-item has-children menu-item-active"><a href="ponudba.html">Ponudba</a>
+                        <!-- Sub Menu -->
+                        <ul class="sub-menu">
+                            <li class="menu-item menu-item-active"><a href="brunch.html">zajtrki</a></li>
+                            <li class="menu-item"><a href="ribe.html">Ribe</a></li>
+                            <li class="menu-item"><a href="pijaca.html">Pijača</a></li>
+                            <li class="menu-item"><a href="praznovanja.html">Praznovanje</a></li>
+                            <li class="menu-item"><a href="sobe.html">Sobe</a></li>
+                            
+			
+                        </ul>
+                        <!--/ Sub Menu -->
+                    </li>
+                    <li class="menu-item"><a href="about.html">Restavracija</a></li>
+                    <li class="menu-item"><a href="journal.html">Dnevnik</a></li>
+                    <li class="menu-item"><a href="contact.html">Kontakt</a></li>
+                    <!-- /Main Menu -->
+
+                </ul>
+                <!-- /Navigation -->
+
+            </div>
+
+            <!-- Menu Widget (Left) -->
+            <div class="menu-widget-wrapper mww-1">
+                <div class="menu-widget">
+                    <div class="menu-widget-title">
+                        Vedno dobrodošli!
+                    </div>
+
+                    <h5>Župančičeva ulica 2 <br>1000 Ljubljana</h5>
+                    <h5>+386 (0) 1 252 70 03</h5>
+                </div>
+            </div>
+            <!--/ Menu Widget (Left) -->
+
+            <!-- Menu Widget (Middle) -->
+            <div class="menu-widget-wrapper mww-2">
+                <div class="scrolling-button">
+                    <a href="mailto:info@operna-klet.si">info@operna-klet.si</a>
+                </div>
+            </div>
+            <!--/ Menu Widget (Middle) -->
+
+            <!-- Menu Widget (Right -->
+            <div class="menu-widget-wrapper mww-3">
+                <div class="menu-widget">
+                    <ul class="widget-socials">
+                        <li><a href="#">facebook.</a></li>
+                        <li><a href="#">instagram.</a></li>
+                        <li><a href="#">tiktok.</a></li>
+                        <li><a href="#">booking.</a></li>
+						<li><a href="operna-klet-EN.html">ENGLISH</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--/ Menu Widget (Right) -->
+
+        </div>
+        <!-- /Menu -->
+    </header>
+    <!-- /Header -->
 
     <!-- Site Content -->
     <div id="main" class="content">
 
-        <!-- Landing Overlays -->
-        <div class="lsc-ovs">
-            <span class="lsc-ov"></span>
-            <span class="lsc-ov"></span>
-            <span class="lsc-ov"></span>
-            <span class="lsc-ov"></span>
-        </div>
-        <!--/ Landing Overlays -->
+          <!-- Page Settings -->
+        <div class="page-settings" data-layout="dark" data-header-style="light"></div>
+        <!--/ Page settings -->
+        
+        <!--Portfolio Big Slider-->
+        <div class="fullscreen portfolio-showcase">
 
-        <!-- Landing Selection -->
-        <div class="landing-select lsc-light">
+            <!-- Big Slider Overlays (Don't Touch) -->
+            <div class="big-slider-overlays"></div>
+            <!--/ Big Slider Overlays (Don't Touch) -->
 
-            <!-- Landing Button -->
-            <a class="select-but" href="sobe.html">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p class="sb-span">SOBE/<br>ROOMS</p>
-            </a>
-            <!--/ Landing Button -->
+            <div class="big-slider">
+                <div class="big-slider-wrapper">
 
-            <!-- Landing Select Bg Images -->
-            <div class="lsc-images">
-                <img src="images/bs.png">
-                <img src="images/wall.png">
-                <img src="images/vert.png">
-                <img src="images/hor.png">
-                <img src="images/list.png">
+                    <!-- Project -->
+                    <div class="big-slider-item">
+
+                        <!-- Project URL -->
+                        <a href="slike/front/MENI.pdf"></a>
+                        <!--/ Project URL -->
+
+                        <div class="top">
+                            <!-- Project Category -->
+                            <div class="category">Morska hrana</div>
+                            <!--/ Project Category -->
+
+                            <!-- Project Title -->
+                            <div class="title">Show cooking</div>
+                            <!--/ Project Title -->
+                        </div>
+
+                        <!-- Project Summary -->
+                        <div class="summary">
+                            Z ljubeznijo pripravljamo sveže ribe iz Hvara in jih na našem vrtu pečemo za Vas. Letos praznujemo 100 let. Smo najstarejša ribja restavracija v Ljubljani. 
+                        </div>
+                        <!--/ Project Summary -->
+
+                        <!-- Project Year -->
+                        <div class="year">100 let</div>
+                        <!--/ Project Year -->
+
+                        <!-- Project Metas -->
+                        <div class="meta">
+                            <div><span class="meta-title">Ribja</span>restavracija</div>
+                          
+                        </div>
+                        <!--/ Project Metas -->
+
+                        <!-- Project Featured Image -->
+                        <div class="image">
+                            <video autoplay muted loop playsinline>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/I7__1GcQKEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </video>
+                        </div>
+                        <!--/ Project Featured Image -->
+
+                    </div>
+                    <!--/ Project -->
+
+                    <!-- Project -->
+                    <div class="big-slider-item">
+
+                        <!-- Project URL -->
+                        <a href="slike/front/MENI.pdf"></a>
+                        <!--/ Project URL -->
+
+                        <div class="top">
+                            <!-- Project Category -->
+                            <div class="category">Jutra v Operni kleti</div>
+                            <!--/ Project Category -->
+
+                            <!-- Project Title -->
+                            <div class="title">ZAJTRKI</div>
+                            <!--/ Project Title -->
+                        </div>
+
+                        <!-- Project Summary -->
+                        <div class="summary">
+                          Domače sestavine, sveža jajca, sveže stisnjeni pomarančni sok, na naši prečudoviti terasi. 
+                        </div>
+                        <!--/ Project Summary -->
+
+                        <!-- Project Year -->
+                        <div class="year">100 let</div>
+                        <!--/ Project Year -->
+
+                        <!-- Project Metas -->
+                        <div class="meta">
+                            <div><span class="meta-title">Ribja</span>restavracija</div>
+                            <div><span class="meta-title">Operna</span>Klet</div>
+                        </div>
+                        <!--/ Project Metas -->
+
+                        <!-- Project Featured Image -->
+                        <div class="image">
+                            <img src="slike/zajtrki/1.jpg" alt="Big Slider Project Image">
+                        </div>
+                        <!--/ Project Featured Image -->
+
+                    </div>
+                    <!--/ Project -->
+                    
+                    
+                    <!-- Project -->
+                    <div class="big-slider-item">
+
+                        <!-- Project URL -->
+                        <a href="slike/front/MENI.pdf"></a>
+                        <!--/ Project URL -->
+
+                        <div class="top">
+                            <!-- Project Category -->
+                            <div class="category">Vse najboljše</div>
+                            <!--/ Project Category -->
+
+                            <!-- Project Title -->
+                            <div class="title">Praznujte</div>
+                            <!--/ Project Title -->
+                        </div>
+
+                        <!-- Project Summary -->
+                        <div class="summary">
+                        Can we align on lunch orders we need to have a Come to Jesus meeting with Phil about his attitude.
+                        </div>
+                        <!--/ Project Summary -->
+
+                        <!-- Project Year -->
+                        <div class="year">100 let</div>
+                        <!--/ Project Year -->
+
+                        <!-- Project Metas -->
+                        <div class="meta">
+                            <div><span class="meta-title">ribja</span>restavracija</div>
+                            <div><span class="meta-title">Operna</span>Klet</div>
+                        </div>
+                        <!--/ Project Metas -->
+
+                        <!-- Project Featured Image -->
+                        <div class="image">
+                            <img src="slike/front/najem.jpg" alt="Big Slider Project Image">
+                        </div>
+                        <!--/ Project Featured Image -->
+
+                    </div>
+                    <!--/ Project -->
+
+                    <!-- Project -->
+                    <div class="big-slider-item">
+
+                        <!-- Project URL -->
+                        <a href="slike/front/MENI.pdf"></a>
+                        <!--/ Project URL -->
+
+                        <div class="top">
+                            <!-- Project Category -->
+                            <div class="category">Popoln oddih</div>
+                            <!--/ Project Category -->
+
+                            <!-- Project Title -->
+                            <div class="title">Sobe</div>
+                            <!--/ Project Title -->
+                        </div>
+
+                        <!-- Project Summary -->
+                        <div class="summary">
+                          Due diligence increase the resolution, scale it up we need a larger print for pull in ten extra bodies to help roll the tortoise.
+                        </div>
+                        <!--/ Project Summary -->
+
+                        <!-- Project Year -->
+                        <div class="year">100 let</div>
+                        <!--/ Project Year -->
+
+                        <!-- Project Metas -->
+                        <div class="meta">
+                            <div><span class="meta-title">Ribja</span>Restavracija</div>
+                            <div><span class="meta-title">Operna</span>Klet</div>
+                        </div>
+                        <!--/ Project Metas -->
+
+                        <!-- Project Featured Image -->
+                        <div class="image">
+                            <img src="slike/front/sobe.jpg" alt="Big Slider Project Image">
+                        </div>
+                        <!--/ Project Featured Image -->
+
+                    </div>
+                    <!--/ Project -->
+
+
+                    <!-- Project -->
+                    <div class="big-slider-item">
+
+                        <!-- Project URL -->
+                        <a href="slike/front/MENI.pdf"></a>
+                        <!--/ Project URL -->
+
+                        <div class="top">
+                            <!-- Project Category -->
+                            <div class="category">osvežilne</div>
+                            <!--/ Project Category -->
+
+                            <!-- Project Title -->
+                            <div class="title">Pijače</div>
+                            <!--/ Project Title -->
+                        </div>
+
+                        <!-- Project Summary -->
+                        <div class="summary">
+                           ing me let's unpack that later but shotgun approach,yet we are running out of runway. Don't over think it.
+                        </div>
+                        <!--/ Project Summary -->
+
+                        <!-- Project Year -->
+                        <div class="year">100 let</div>
+                        <!--/ Project Year -->
+
+                        <!-- Project Metas -->
+                        <div class="meta">
+                            <div><span class="meta-title">Ribja </span>restavracija</div>
+                            <div><span class="meta-title">Operna</span>Klet</div>
+                        </div>
+                        <!--/ Project Metas -->
+
+                        <!-- Project Featured Image -->
+                        <div class="image">
+                          <img src="slike/front/pijaca.jpg" alt="Big Slider Project Image">
+                        </div>
+                        <!--/ Project Featured Image -->
+
+                    </div>
+                    <!--/ Project -->
+
+                </div>
             </div>
-            <!--/ Landing Select Bg Images -->
-
-        </div>
-        <!-- Landing Selection -->
-
-        <div class="landing-select lsc-dark">
-            <a class="select-but" href="operna-klet.html">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <p class="sb-span">RESTAVRACIJA/<br>RESTAURANT</p>
-            </a>
-
-            <div class="lsc-images">
-                <img src="images/bs-d.png">
-                <img src="images/wall-d.png">
-                <img src="images/vert-d.png">
-                <img src="images/hor-d.png">
-                <img src="images/list-d.png">
+            
+            <!-- View Project Button -->
+       <div class="big-slide-button">Ogled menija</div>
+            <!--/ View Project Button -->
+            
+            <!-- Slider Elements (Don't Touch) -->
+            <div class="big-slide-pag">
+                <div class="big-slide-prev"><i class="icon-up-open-big"></i></div>
+                <div class="big-slide-next"><i class="icon-down-open-big"></i></div>
             </div>
-
-
+            <div class="bs-bullets"></div>
+            <div class="bs-splitted"></div>
+            <!--/ Slider Elements (Don't Touch) -->
+            
         </div>
+        <!--/Portfolio Big Carousel-->
 
     </div>
     <!--/ Site Content -->
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.smoothState.js"></script>
-    <script src="js/landing.js"></script>
+    <script src="../light/js/jquery.min.js"></script>
+    <script src="../light/js/jquery-ui.js"></script>
+    <script src="../light/js/plugins.js"></script>
+    <script src="../light/js/scripts.js"></script>
+    <script src="../light/js/jquery.smoothState.js"></script>
+    <script src="../light/js/page-transitions.js"></script>
 </body>
 
 </html>
